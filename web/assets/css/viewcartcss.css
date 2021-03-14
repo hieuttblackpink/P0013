@@ -1,0 +1,339 @@
+body
+{
+    background-image: url('img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header
+{
+    overflow: hidden;
+    background: linear-gradient(to right, rgba(255, 150, 150, 1), rgba(255, 150, 150, 0.1));
+    padding: 20px 10px;
+    font-size: 40px;
+    float: top;
+    top: 0px;
+}
+
+header.leftH
+{
+    float: left;
+    color: white;
+    background-color: rgba(255,182,193, 0) !important;
+    background: none !important;
+    margin-top: 5px;
+}
+
+header.rightH
+{
+    float: right;
+    background-color: rgba(255,182,193, 0) !important;
+    background: none !important;
+}
+
+div.div1
+{
+    margin-top: 5px;
+    font-size: 30px !important;
+    border: 2px solid #ffffff;
+    padding: 5px;
+    color: white;
+}
+
+h2.yourCart
+{
+    color: white;
+    font-size: 20px;
+}
+
+a.class1
+{
+    text-decoration: none;
+    color: white;
+}
+
+input.logout
+{
+    width: 125px;
+    height: 50px;
+    opacity: 0.9;
+    text-align: center;
+    background-color: pink;
+    margin-top: 0px;
+    font-size: 25px;
+    border-radius: 30px;
+    color: black;
+}
+
+form.form1
+{
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-top: 0;
+}
+
+form.form2
+{
+    float: right;
+    width: 400px;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding-top: 0;
+}
+
+form.form3
+{
+    float: left;
+    width: 600px;
+    background-color: red;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding-top: 0;
+}
+
+form.form4
+{
+    float: right;
+    width: 200px;
+    height: 60px;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding-top: 0;
+}
+
+#wrapper
+{
+    width: 1300px;
+    height: 1700px;
+    background: rgba(255, 255, 255, 0.5);
+    margin: 50px auto;
+    display: block;
+    border-radius: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#wrapper2
+{
+    width: 1300px;
+    height: 70px;
+    background: rgba(255, 255, 255, 1);
+    margin: 50px auto;
+    margin-top: -20px;
+    display: block;
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#wrapper3
+{
+    width: 1300px;
+    height: 1500px;
+    background: rgba(255, 255, 255, 1);
+    margin: 50px auto;
+    margin-top: 0px !important;
+    display: block;
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#wrapper4
+{
+    width: 1200px;
+    height: 200px;
+    background: linear-gradient(to right, rgba(255, 70, 70, 0.9), rgba(255, 70, 70, 0.3));
+    margin: 50px auto;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    display: block;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#wrapper5
+{
+    width: 1200px;
+    height: 50px;
+    background: white;
+    margin: 50px auto;
+    display: block;
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.wrapperLeft
+{
+    width: 180px;
+    height: 180px;
+    background: rgba(255, 255, 255, 1);
+    display: block;
+    border-radius: 25px;
+    padding: 10px;
+    margin-right: 10px;
+    float: left;
+}
+
+.wrapperMiddle
+{
+    width: 670px;
+    height: 180px;
+    background: rgba(255, 255, 255, 1);
+    display: block;
+    border-radius: 25px;
+    padding: 10px;
+    margin-right: 0%;
+    float: left;
+}
+
+.wrapperRight
+{
+    width: 260px;
+    height: 180px;
+    background: rgba(255, 255, 255, 1);
+    display: block;
+    border-radius: 25px;
+    padding: 10px;
+    margin-left: 10px;
+    float: right;
+}
+
+img.imgSearch
+{
+    width: 180px;
+    height: 180px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+h2.productName
+{
+    font-family: 'Arial';
+    font-size: 30px;
+    font-weight: bolder;
+    float: left;
+    color: rgb(120, 120, 255);
+    margin-left: 30px;
+}
+
+h2.productPrice
+{
+    font-family: 'Arial';
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h3.productCategory
+{
+    font-family: 'Arial';
+    font-size: 15px;
+    font-weight: initial;
+    float: right;
+    margin-top: 30px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+h3.productDes
+{
+    font-family: 'Arial';
+    font-size: 20px;
+    font-weight: initial;
+    float: bottom;
+    margin-top: 10px;
+    margin-left: 50px;
+    color: rgba(0, 0, 0, 1);
+    text-align: left;
+    display: block;
+    position: absolute;
+}
+
+input.amount
+{
+    text-align: center;
+    margin-left: 105px;
+    margin-top: 0px;
+    width: 50px;
+    height: 20px;
+}
+
+input.addToCart
+{
+    float: right;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 0px;
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(to right, #fc00ff, #00dbde);
+    color: white;
+    font-size: 20px;
+}
+
+input.removeFromCart
+{
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 0px;
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(to right, #fc00ff, #00dbde);
+    color: white;
+    font-size: 20px;
+}
+
+input.confirm
+{
+    float: right;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 0px;
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(to right, #fc00ff, #00dbde);
+    color: white;
+    font-size: 20px;
+}
+
+h1.bill
+{
+    color: lightskyblue;
+    font-weight: bolder;
+    float: left;
+    font-size: 40px;
+}
+
+div.bill
+{
+    float: right;
+    font-size: 50px;
+    font-weight: bolder;
+}

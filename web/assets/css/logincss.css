@@ -1,0 +1,165 @@
+
+body
+{
+    background-image: url('img/background.jpg');
+}
+
+header
+{
+    overflow: hidden;
+    background: linear-gradient(to right, rgba(255, 150, 150, 1), rgba(255, 150, 150, 0.1));
+    padding: 20px 10px;
+    font-size: 40px;
+    float: top;
+    top: 0px;
+}
+
+header.leftH
+{
+    float: left;
+    color: white;
+    background-color: rgba(255,182,193, 0);
+    background: none !important;
+    margin-top: 5px;
+}
+
+header.rightH
+{
+    float: right;
+    background-color: rgba(255,182,193, 0);
+    background: none !important;
+}
+
+h1
+{
+    text-align: center;
+    color: pink;
+    font-family: Brush Script MT;
+    font-size: 70px;
+    margin-top: 50px;
+    font-size: 100px;
+}
+
+b.class1
+{
+    color: white;
+    font-size: 20px;
+    text-decoration: underline;
+    font-family: Arial;
+}
+
+a.class1
+{
+    text-decoration: none;
+    color: white;
+}
+
+.form1
+{
+    border: 1px solid #808080;
+    grid-column: 6/9;
+    grid-row: 3;
+    height: 420px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border-radius: 25px;
+    box-shadow: 0px 0px 14px 0px grey;
+    background-color: white;
+}
+
+#wrapper
+{
+    width: 900px;
+    height: 420px;
+    background: rgba(255, 255, 255, 0.5);
+    margin: 50px auto;
+    display: block;
+    border-radius: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+p.txtLogin
+{
+    font-size: 30px;
+    color: red;
+    font-weight: bolder;
+    font-family: "Calibri";
+}
+
+label 
+{
+    margin-left: -230px;
+    display: block;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: "Calibri";
+}
+
+input
+{
+    display: block;
+    border-bottom: 2px solid #00BCD4;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    outline-style: none;
+    width: 250px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus 
+{
+    border-bottom: 2px solid #00BCD4;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    -webkit-text-fill-color: black;
+    -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+input#submit 
+{
+    padding: 7px;
+    height: 40px; 
+    width: 300px;
+    border-radius: 20px;
+    border: none;
+    bottom: 10px;
+    cursor: pointer;
+    background: linear-gradient(to right, #fc00ff, #00dbde);
+    color: white;
+    font-size: 20px;
+}
+
+input#submit:hover
+{
+    background: linear-gradient(to right, #fc466b, #3f5efb); 
+}
+
+div.loginFail
+{
+    color: red; 
+    font-size: 12px; 
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+
+
+

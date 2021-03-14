@@ -1,0 +1,557 @@
+
+
+body
+{
+    background-image: url('img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header
+{
+    overflow: hidden;
+    background: linear-gradient(to right, rgba(255, 150, 150, 1), rgba(255, 150, 150, 0.1));
+    padding: 20px 10px;
+    font-size: 40px;
+    float: top;
+    top: 0px;
+}
+
+header.leftH
+{
+    float: left;
+    color: white;
+    background-color: rgba(255,182,193, 0) !important;
+    background: none !important;
+    margin-top: 5px;
+}
+
+header.rightH
+{
+    float: right;
+    background-color: rgba(255,182,193, 0) !important;
+    background: none !important;
+}
+
+div.div1
+{
+    margin-top: 5px;
+    font-size: 30px !important;
+    border: 2px solid #ffffff;
+    padding: 5px;
+    color: white;
+}
+
+img.imgSearch
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+img.imgCart
+{
+    color: white;
+}
+
+form.form1
+{
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-top: 0;
+}
+
+form.form2
+{
+    float: right;
+    width: 400px;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding-top: 0;
+}
+
+form.form3
+{
+    float: left;
+    width: 600px;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding-top: 0;
+}
+
+form.form4
+{
+    float: right;
+    width: 200px;
+    height: 60px;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding-top: 0;
+}
+
+input.logout
+{
+    width: 125px;
+    height: 50px;
+    opacity: 0.9;
+    text-align: center;
+    background-color: pink;
+    margin-top: 0px;
+    font-size: 25px;
+    border-radius: 30px;
+    color: black;
+}
+
+input.login
+{
+    width: 150px;
+    height: 50px;
+    opacity: 0.9;
+    text-align: center;
+    background-color: pink;
+    background: rgba(255, 150, 150, 1);
+    margin-top: 0px;
+    font-size: 30px;
+    border-radius: 30px;
+    color: black;
+    color: white;
+}
+
+input.viewHistory
+{
+    width: 200px;
+    height: 50px;
+    opacity: 0.9;
+    text-align: center;
+    background-color: pink;
+    margin-top: 0px;
+    font-size: 25px;
+    border-radius: 30px;
+    color: black;
+}
+
+a.class1
+{
+    text-decoration: none;
+    color: white;
+}
+
+#wrapper
+{
+    width: 1300px;
+    height: 1700px;
+    background: rgba(255, 255, 255, 0.5);
+    margin: 50px auto;
+    display: block;
+    border-radius: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#wrapper2
+{
+    width: 1300px;
+    height: 150px;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 50px auto;
+    margin-top: -20px;
+    display: block;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#wrapper3
+{
+    width: 1300px;
+    height: 1200px;
+    background: rgba(255, 255, 255, 1);
+    margin: 50px auto;
+    margin-top: 0px;
+    display: block;
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#wrapper4
+{
+    width: 700px;
+    height: 150px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3));
+    margin: 0px;
+    margin-right: -550px;
+    display: block;
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#wrapper5
+{
+    width: 1200px;
+    height: 50px;
+    background: white;
+    margin: 50px auto;
+    display: block;
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.wrapperLeft
+{
+    width: 130px;
+    height: 130px;
+    background: rgba(255, 255, 255, 1);
+    display: block;
+    border-radius: 25px;
+    padding: 10px;
+    margin-right: 10px;
+    float: left;
+}
+
+.wrapperMiddle
+{
+    width: 500px;
+    height: 130px;
+    background: rgba(255, 255, 255, 1);
+    display: block;
+    border-radius: 25px;
+    padding: 10px;
+    margin-right: 0%;
+    float: left;
+}
+
+.wrapperRight
+{
+    width: 50px;
+    height: 80px;
+    background: rgba(255, 255, 255, 1);
+    display: block;
+    border-radius: 25px;
+    padding: 10px;
+    margin-left: 10px;
+    float: right;
+}
+
+input.search
+{
+    float: right;
+    display: block;
+    border-bottom: 2px solid #00BCD4;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    margin-top: 20px;
+    margin-right: 20px;
+    outline-style: none;
+    width: 250px;
+}
+
+input.btSearch
+{
+    float: right;
+    padding: 5px;
+    height: 30px; 
+    width: 100px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(to right, #fc00ff, #00dbde);
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+img.imgSearch
+{
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+h2.productName
+{
+    font-family: 'Arial';
+    font-size: 25px;
+    font-weight: bolder;
+    float: left;
+    color: rgb(120, 120, 255);
+    margin-left: 30px;
+    margin-top: 0px;
+}
+
+h2.productPrice
+{
+    font-family: 'Arial';
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h3.productCategory
+{
+    font-family: 'Arial';
+    font-size: 10px;
+    font-weight: initial;
+    float: right;
+    margin-top: 30px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: 0px;
+}
+
+h3.productDes
+{
+    font-family: 'Arial';
+    font-size: 15px;
+    font-weight: initial;
+    float: bottom;
+    margin-top: 10px;
+    margin-left: 50px;
+    color: rgba(0, 0, 0, 1);
+    text-align: left;
+    display: block;
+    position: absolute;
+}
+
+input.amount
+{
+    text-align: center;
+    margin-left: 85px;
+    margin-top: 0px;
+    width: 50px;
+    height: 20px;
+}
+
+input.rangePrice
+{
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
+    width: 100px;
+    height: 20px;
+}
+
+input.addToCart
+{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(to right, #fc00ff, #00dbde);
+    color: white;
+    font-size: 20px;
+}
+
+input.btnPage
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 30px;
+    color: white;
+    border: 2px solid white;
+    background: linear-gradient(to right, #fc00ff, #00dbde);
+}
+
+div.rangePrice
+{
+    color: green;
+    font-weight: bolder;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+input.btOK
+{
+    border: 2px solid rgb(100, 100, 255);
+    background-color: white;
+    color: rgb(100, 100, 255);
+    height: 25px;
+    width: 50px;
+}
+
+h2.yourCart
+{
+    color: white;
+    font-size: 20px;
+}
+
+table
+{
+    width: 1300px;
+    border: 1px solid white;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+thead
+{
+    background-color: bisque;
+    border-bottom: 20px solid white;
+}
+
+thead tr th
+{
+    height: 50px;
+    margin-bottom: 10px;
+    border-collapse: collapse;
+}
+
+td
+{
+    padding: 10px;
+}
+
+tbody tr
+{
+    border-collapse: collapse;
+    background-color: rgb(250, 250, 250);
+}
+
+tbody tr:hover
+{
+    background-color: rgb(200, 200, 200);
+}
+
+input.btnView
+{
+    height: 20px;
+    border-radius: 20px;
+    background-color: white;
+    border: none;
+    font-weight: bolder;
+}
+
+h2.orderID
+{
+    margin-top: -10px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-family: 'Arial';
+}
+
+#wrapperTitleLeft
+{
+    float: left;
+    width: 620px;
+    height: 10px;
+    background: rgba(255, 255, 255, 0.5);
+    margin: 50px auto;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    display: block;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    text-align: center;
+    font-family: 'Arial';
+    font-weight: bolder;
+}
+
+#wrapperTitleRight
+{
+    float: right;
+    width: 620px;
+    height: 10px;
+    background: rgba(255, 255, 255, 0.5);
+    margin: 50px auto;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    display: block;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    text-align: center;
+    font-family: 'Arial';
+    font-weight: bolder;
+}
+
+#wrapperContentLeft
+{
+    float: left;
+    width: 620px;
+    height: 100px;
+    background: rgba(255, 255, 255, 1);
+    margin: 50px auto;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    display: block;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    text-align: left;
+    font-family: 'Arial';
+    font-weight: bolder;
+}
+
+#wrapperContentRight
+{
+    float: right;
+    width: 620px;
+    height: 100px;
+    background: rgba(255, 255, 255, 1);
+    margin: 50px auto;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    display: block;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    text-align: left;
+    font-family: 'Arial';
+    font-weight: bolder;
+}
+
+h3.infoName
+{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+h3.infoAddress
+{
+    font-weight: initial;
+    font-size: 15px;
+    margin-top: -5px;
+}
+
+

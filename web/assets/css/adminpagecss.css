@@ -1,0 +1,276 @@
+
+body
+{
+    background: rgba(255, 240, 240, 0.9);
+}
+
+h1
+{
+    font-family: "Arial" !important;
+    font-size: 40px;
+}
+
+h2
+{
+    font-family: "Arial" !important;
+    color: rgb(0, 200, 0);
+    margin-left: 15px;
+}
+
+form.form1
+{
+    float: right !important;
+    margin-top: -10px;
+    margin-right: 20px;
+}
+
+.logout
+{
+    width: 100px;
+    height: 50px;
+    background: white;
+    color: black;
+    border-radius: 25px; 
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+label
+{
+    margin-right: 10px;
+}
+
+label.label1
+{
+    display: inline-block;
+    color: black;
+    background-color: white;
+    padding: 0.5rem;
+    font-family: sans-serif;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+label.label2
+{
+    display: inline-block;
+    color: black;
+    background-color: bisque;
+    padding: 0.5rem;
+    font-family: sans-serif;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 1rem;
+    width: 70px;
+}
+
+label.errors
+{
+    color: red;
+}
+
+label.errorsUpdate
+{
+    color: red;
+    font-weight: bolder;
+    float: right;
+}
+
+div.wrapper1
+{
+    float: left;
+    width: 300px;
+    height: 700px;
+    background-color: bisque;
+    padding: 10px;
+}
+
+div.wrapper2
+{
+    float: right;
+    width: 1150px;
+    height: 1500px;
+    background-color: bisque;
+    padding: 10px;
+}
+
+div.searchBar
+{
+    float: left;
+    width: 335px;
+    height: 50px;
+    margin-left: 15px;
+    background-color: rgba(255, 228, 196, 1);
+    padding: 10px;
+}
+
+div.tblSearch
+{
+    float: left;
+    width: 1100px;
+    height: 1000px;
+    margin-left: 15px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+input
+{
+    width: 160px;
+}
+
+input.btAdd
+{
+    padding: 7px;
+    height: 40px; 
+    width: 300px;
+    border-radius: 20px;
+    border: none;
+    bottom: 10px;
+    cursor: pointer;
+    background: white;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+input.btUpdate
+{
+    padding: 7px;
+    height: 40px; 
+    width: 100px;
+    border-radius: 20px;
+    border: none;
+    bottom: 10px;
+    cursor: pointer;
+    background: white;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: lightblue;
+}
+
+input.txtDes
+{
+    height: 80px;
+}
+
+input[type="file"]::file-selector-button
+{
+    width: 200px;
+}
+
+textarea
+{
+    height: 90px;
+    resize: none;
+}
+
+#output
+{
+    margin-left: 110px;
+    height: 75px;
+    width: 75px;
+}
+
+input.searchBar
+{
+    margin-top: 15px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: 2px solid white;
+    background-color: rgba(255, 228, 196, 1);
+}
+
+input.searchBar:focus,
+input.searchBar:hover
+{
+    border-left: 2px solid white;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    background-color: rgba(255, 228, 196, 1);
+    -webkit-text-fill-color: black;
+    -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+input.btnSearch
+{
+    margin-top: 15px;
+    border-radius: 20px;
+    background-color: white;
+    border: none;
+    font-weight: bolder;
+}
+
+table
+{
+    width: 1090px;
+    border: 1px solid bisque;
+}
+
+thead
+{
+    background-color: bisque;
+    border-bottom: 10px solid greenyellow;
+}
+
+thead tr th
+{
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+td
+{
+    padding: 10px;
+}
+
+input.inTable1
+{
+    width: 130px;
+}
+
+input.inTable2
+{
+    width: 60px;
+    text-align: center;
+}
+
+textarea.textArea1
+{
+    width: 130px;
+}
+
+#wrapper5
+{
+    width: 1000px;
+    height: 50px;
+    background: white;
+    margin: 50px auto;
+    display: block;
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+input.btnPage
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 30px;
+    color: white;
+    border: 2px solid white;
+    background: linear-gradient(to right, #fc00ff, #00dbde);
+}
+
+
+
+
